@@ -2,7 +2,18 @@
   display: grid;
   grid-template-columns: auto auto auto;
   position: relative;
-  top: 60px;
+  top: 80px;
+
+}
+
+/* .content {
+  background-color: lightblue;
+} */
+
+.outer-container {
+  background-color: rgb(235, 235, 235);
+  height: 100vh;
+  width: 100vw;
 }
 
 .post-picture {
@@ -40,7 +51,10 @@
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
-  width: 390px;
+  /* width: 390px; */
+  flex: 1 100%;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .post-section {
@@ -76,4 +90,28 @@
   height: 18px;
   margin-right: 8px;
 }
+
+.sort-section {
+  text-align: right;
+  border-bottom: 1px solid rgba(0,0,0, 0.6);
+  line-height: 0.1em;
+  flex: 1 100%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sort-section span {
+  background-color: rgb(235, 235, 235);
+  padding: 0 10px 0 5px;
+}
+
+.top {
+  color: black;
+  font-weight: bold;
+  /* display: flex; */
+}
+
+/* .sort-triangle {
+  transform: scale(0.05);
+} */
 
