@@ -1,0 +1,113 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  height: 53px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  z-index: 200;
+}
+
+.left-header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-header-section input[type=text] {
+  background-image: url('../images/search.png');
+  background-size: 15px;
+  background-position: left 15px center;
+  background-repeat: no-repeat;
+  background-color: rgb(235, 235, 235);
+  /* width: 246px;
+  height: 32px; */
+  width: 246px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px 10px 40px;
+}
+
+.left-header-section input::placeholder {
+  font-size: 15px;
+}
+
+
+.logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+}
+
+.middle-header-section {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.6);
+  /* width: 400px; */
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.notification img {
+  width: 24px;
+  height: 24px;
+}
+
+.notification div {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.notification .notification-profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.notification-profile-picture-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.notification-profile-picture-details div {
+  margin-right: -5px;
+}
+
+.profile-pointer {
+  transform: scale(0.3);
+
+}
+
+.right-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.business-icon {
+  transform: scale(0.7, 0.7);
+}
+
+.notification .premium-text {
+  color: rgb(145, 89, 7);
+  text-decoration: underline;
+  word-wrap: break-word;
+  width: 100px;
+  text-align: center;
+  line-height: 20px;
+}
