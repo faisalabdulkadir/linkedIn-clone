@@ -107,8 +107,10 @@
   border-left: 1px solid rgba(0, 0, 0, 0.6);
 }
 
-.business-icon {
-  transform: scale(0.7, 0.7);
+.notification .business-icon {
+  /* transform: scale(0.7, 0.7); */
+  width: 17px;
+  height: 17px;
 }
 
 .notification .premium-text {

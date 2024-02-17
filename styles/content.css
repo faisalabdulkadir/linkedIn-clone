@@ -72,7 +72,7 @@
   font-size: 14px;
 }
 
-.icon-container {
+.icon-container, .reaction {
   display: flex;
   /* width: 88.64px;
   height: 48px; */
@@ -81,7 +81,7 @@
   cursor: pointer;
 }
 
-.icon-container:hover {
+.icon-container:hover, .reaction:hover {
   background-color: rgb(235, 235, 235);
   border-radius: 5px;
 }
@@ -159,6 +159,7 @@
 
 .close-button {
   font-size: 20px;
+  cursor: pointer;
 }
 
 .dot-symbol {
@@ -201,6 +202,7 @@
   color: rgb(10, 102, 194);
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .follow-button span {
@@ -231,9 +233,7 @@
 }
 
 .reaction {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+ padding: 10px;
 }
 
 .reaction img {
@@ -263,4 +263,5 @@
   width: fit-content;
   border-radius: 50%;
   margin-right: 5px;
+  cursor: pointer;
 }
