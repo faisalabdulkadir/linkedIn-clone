@@ -220,6 +220,11 @@
   margin-bottom: 10px;
 }
 
+.details-image-container {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
 .likes-comment-notifications {
   display: flex;
   justify-content: space-between;
