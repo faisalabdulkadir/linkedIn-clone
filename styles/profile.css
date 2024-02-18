@@ -53,9 +53,60 @@
   margin-right: -20px;
 }
 
-.profile-section-container .profile-view,
+/* .profile-section-container .profile-view,
 .profile-section-container .goal,
 .profile-section-container .items {
   margin-top: 10px;
   margin-bottom: 10px;
+} */
+
+.profile-view {
+  font-weight:600;
+}
+
+.profile-view .viewer, .profile-view .connection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-view .connection {
+  margin: 0;
+}
+
+.profile-view .network {
+  color: black;
+}
+
+.profile-view span {
+  color: rgb(10, 102, 194);
+}
+
+.goal .premium-text {
+  font-weight: 600;
+  color: black;
+  margin-left: 10px;
+}
+
+.premium-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.premium-info img {
+  width: 15px;
+  height: 15px;
+}
+
+.items-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.items-section img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
 }
