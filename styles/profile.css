@@ -81,6 +81,11 @@
   color: rgb(10, 102, 194);
 }
 
+.goal {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .goal .premium-text {
   font-weight: 600;
   color: black;
@@ -100,6 +105,10 @@
 .items-section {
   display: flex;
   flex-direction: row;
+  color: black;
+  font-weight: 600px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .items-section img {
@@ -174,7 +183,7 @@
 
 .discover {
   text-align: center;
-  font-weight: bold;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
