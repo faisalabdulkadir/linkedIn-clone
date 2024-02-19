@@ -8,8 +8,9 @@
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.6);
   z-index: 200;
-  padding-left: 50px;
-  padding-right: 50px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  padding: 5px 50px;
 }
 
 .left-header-section {
@@ -72,21 +73,29 @@
 }
 
 .notification div {
-  margin-top: 5px;
+  /* margin-top: 5px; */
   font-size: 12px;
 }
 
 .notification .notification-profile-picture {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
 }
 
+.notification span {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
 .notification-profile-picture-details {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .notification-profile-picture-details div {
