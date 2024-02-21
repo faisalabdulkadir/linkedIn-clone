@@ -1,6 +1,7 @@
-.profile-section-container {
+.profile-section-container,
+.recent {
   background-color: white;
-  margin-right: 40px;
+  margin-right: 20px;
   padding: 10px 20px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.6);
@@ -8,6 +9,7 @@
   overflow: hidden;
   color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .profile-section-top {
@@ -48,23 +50,18 @@
   font-size: 18px;
 }
 
-.profile-section-container hr {
+.profile-section-container hr,
+.recent hr {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-/* .profile-section-container .profile-view,
-.profile-section-container .goal,
-.profile-section-container .items {
-  margin-top: 10px;
-  margin-bottom: 10px;
-} */
-
 .profile-view {
-  font-weight:600;
+  font-weight: 600;
 }
 
-.profile-view .viewer, .profile-view .connection {
+.profile-view .viewer,
+.profile-view .connection {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -82,6 +79,11 @@
 
 .profile-view span {
   color: rgb(10, 102, 194);
+}
+
+.goal {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .goal .premium-text {
@@ -103,10 +105,85 @@
 .items-section {
   display: flex;
   flex-direction: row;
+  color: black;
+  font-weight: 600px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .items-section img {
   width: 15px;
   height: 15px;
   margin-right: 10px;
+}
+
+.recent {
+  overflow: visible;
+}
+
+.recent .recent-title {
+  margin-bottom: 20px;
+}
+
+.recent-details-container {
+  margin-bottom: 10px;
+}
+
+.recent-details {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.recent-details img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.quick-links {
+  margin-top: 25px;
+}
+
+.quick-links p,
+.events {
+  color: rgb(10, 102, 194);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events p {
+  margin-bottom: 0;
+}
+
+.events span {
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+}
+
+.show-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.show-container img {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.discover {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

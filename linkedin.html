@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="styles/header.css" />
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/profile.css">
+  <link rel="stylesheet" href="styles/feed.css">
   <title>linkedIn</title>
 </head>
 
@@ -53,7 +54,7 @@
       </div>
 
       <div class="notification">
-        <img class="notification-profile-picture" src="images/fai-pic-sample.jpeg" alt="">
+        <span> <img class="notification-profile-picture" src="images/fai-pic-sample.jpeg" alt=""></span>
         <div class="notification-profile-picture-details">
           <div>Me</div>
           <img class="profile-pointer" src="images/triangle.png" alt="">
@@ -121,6 +122,58 @@
             <p class="items">My items</p>
           </div>
         </div>
+
+        <div class="recent">
+          <p class="recent-title">Recent</p>
+
+          <div class="recent-details">
+            <img src="images/recent-icon.png" alt="">
+            <p>recruitment</p>
+          </div>
+          <div class="recent-details">
+            <img src="images/recent-icon.png" alt="">
+            <p>entrepreneurship</p>
+          </div>
+          <div class="recent-details">
+            <img src="images/recent-icon.png" alt="">
+            <p>technology</p>
+          </div>
+          <div class="recent-details">
+            <img src="images/recent-icon.png" alt="">
+            <p>careers</p>
+          </div>
+
+          <div class="quick-links">
+            <p>Groups</p>
+            <div class="events">
+              <p>Events</p><span>&plus;</span>
+            </div>
+            <p>Followed Hashtags</p>
+          </div>
+          <div class="recent-details-container">
+            <div class="recent-details">
+              <img src="images/recent-icon.png" alt="">
+              <p>recruitment</p>
+            </div>
+            <div class="recent-details">
+              <img src="images/recent-icon.png" alt="">
+              <p>entrepreneurship</p>
+            </div>
+            <div class="recent-details">
+              <img src="images/recent-icon.png" alt="">
+              <p>technology</p>
+            </div>
+          </div>
+
+          <div class="show-container">
+            <p class="show">Show more </p>
+            <img src="images/show-icon.png" alt="">
+          </div>
+          <hr>
+
+          <p class="discover">Discover more</p>
+        </div>
+
       </div>
 
       <div class="content">
@@ -184,7 +237,9 @@
                 Useful Python Modules: Python has a rich ecosystem of modules and libraries that extend its
                 functionality for various tasks.
               </p>
-              <img class="details-image" src="images/python-picture.jpg" alt="">
+              <div class="details-image-container">
+                <img class="details-image" src="images/python-picture.jpg" alt="">
+              </div>
               <div class="likes-comment-notifications">
                 <div class="like-reaction">
                   <div> <img src="images/like.png" alt=""></div>
@@ -241,7 +296,7 @@
               <div class="middle-profile-section">
                 <img class="middle-profile-picture" src="images/man-picture.jpeg" alt="">
                 <div>
-                  <p class="middle-profile-picture-name">JK Musa</p>
+                  <p class="middle-profile-picture-name">ASCII JK Musa</p>
                   <p>Software Developer</p>
                   <p>1d. Edited. &#x1F30E;</p>
                 </div>
@@ -252,10 +307,12 @@
 
             <div class="middle-details">
               <p class="details">
-                Useful Python Modules: Python has a rich ecosystem of modules and libraries that extend its
-                functionality for various tasks.
+                30 articles to build strong foundation in core frontend tech 🔥 :
               </p>
-              <img class="details-image" src="images/python-picture.jpg" alt="">
+              <div class="details-image-container">
+                <img class="details-image" src="images/frontend-pic.jpeg" alt="">
+
+              </div>
               <div class="likes-comment-notifications">
                 <div class="like-reaction">
                   <div> <img src="images/like.png" alt=""></div>
@@ -310,7 +367,7 @@
               <div class="middle-profile-section">
                 <img class="middle-profile-picture" src="images/man-picture.jpeg" alt="">
                 <div>
-                  <p class="middle-profile-picture-name">JK Musa</p>
+                  <p class="middle-profile-picture-name">ASCII UO Tommy</p>
                   <p>Software Developer</p>
                   <p>1d. Edited. &#x1F30E;</p>
                 </div>
@@ -324,7 +381,9 @@
                 Useful Python Modules: Python has a rich ecosystem of modules and libraries that extend its
                 functionality for various tasks.
               </p>
-              <img class="details-image" src="images/python-picture.jpg" alt="">
+              <div class="details-image-container">
+                <img class="details-image" src="images/python-picture.jpg" alt="">
+              </div>
               <div class="likes-comment-notifications">
                 <div class="like-reaction">
                   <div> <img src="images/like.png" alt=""></div>
@@ -361,7 +420,104 @@
         </div>
       </div>
 
-      <div class="feed">feed</div>
+      <div class="feed">
+        <div class="top-feed">
+          <div class="info-title">
+            <p>Add to your feed</p>
+            <img src="images/info-icon.png" alt="">
+          </div>
+
+          <!-- <div class="follow-profile"> -->
+          <div class="follow-container">
+            <span><img src="images/follow-pic1.jpg" alt=""></span>
+            <div class="follow-details">
+              <p class="follow-name">Faisal Abdulkadir</p>
+              <p>Software Engineer @ Google | join</p>
+              <p class="profession">thousands of software engineers an ...</p>
+              <button>
+                <div class="follow-button-details">
+                  <span class="plus">&plus;</span><span>Follow</span>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <div class="follow-container">
+            <span><img src="images/follow-pic1.avif" alt=""></span>
+            <div class="follow-details">
+              <p class="follow-name">Kevin Naughton</p>
+              <p>Software Engineer @ Meta | join</p>
+              <p class="profession">thousands of software engineers an ...</p>
+              <button>
+                <div class="follow-button-details">
+                  <span class="plus">&plus;</span><span>Follow</span>
+                </div>
+              </button>
+            </div>
+          </div>
+
+          <div class="follow-container">
+            <span><img src="images/follow-pic1.jpg" alt=""></span>
+            <div class="follow-details">
+              <p class="follow-name">Kevin Naughton</p>
+              <p>Software Engineer @ Google | join</p>
+              <p class="profession">thousands of software engineers an ...</p>
+              <button>
+                <div class="follow-button-details">
+                  <span class="plus">&plus;</span><span>Follow</span>
+                </div>
+              </button>
+            </div>
+          </div>
+          <!-- </div> -->
+
+          <div class="recommendation">
+            <p> View all recommendations</p>
+            <img src="images/arrow.png" alt="">
+          </div>
+        </div>
+
+        <div class="middle-feed">
+          <img src="images/hiring.png" alt="">
+        </div>
+
+        <div class="bottom-feed">
+          <div class="bottom-feed-layer">
+            <a href="">About</a>
+            <a href="">Accessibility</a>
+            <a href="">Health Center</a>
+          </div>
+
+          <div class="bottom-feed-layer">
+            <div class="terms">
+              <a class="terms-name" href="">Privacy & Terms</a>
+              <img src="images/triangle.png" alt="">
+            </div>
+            <a href="">Ad Choices</a>
+          </div>
+
+          <div class="bottom-feed-layer">
+            <a href="">Advertising</a>
+            <div class="terms">
+              <a class="terms-name" href="">Business Services</a>
+              <img src="images/triangle.png" alt="">
+            </div>
+          </div>
+
+          <div class="bottom-feed-layer">
+            <a href="">Get the LinkedIn app</a>
+            <a href="">More</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <div class="footer-logo">
+            <p>Linked</p>
+            <img src="images/linkedIn-logo.png" alt="">
+          </div>
+          <p>LinkedIn Corporation &copy; 2024</p>
+        </div>
+      </div>
 
     </section>
   </main>
